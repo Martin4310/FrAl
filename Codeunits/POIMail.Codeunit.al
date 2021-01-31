@@ -13,10 +13,10 @@ codeunit 50011 "POI Mail"
     [Scope('OnPrem')]
     procedure OpenNewMessage(ToName: Text)
     var
-        AttachmentFilename: Record Attachment temporary;
+        TempAttachment: Record Attachment temporary;
     begin
         Initialize();
-        NewMessage(ToName, '', '', '', '', AttachmentFilename, true);
+        NewMessage(ToName, '', '', '', '', TempAttachment, true);
     end;
 
     [Scope('OnPrem')]
