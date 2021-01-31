@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Your own server",
+            "server": "http://port-ts-test:7049",
+            "serverInstance": "BC150",
+            "authentication": "Windows",
+            "startupObjectId": 22, //26 Kreditor //21 debitor //50008 Actions //50031 Frachtkosten //50037 Tour //50038 Account admin //53 PList //50 PO
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
